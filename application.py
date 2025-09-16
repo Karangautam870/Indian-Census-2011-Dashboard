@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 
 st.set_page_config(layout="wide")
 
-census = pd.read_csv("/Users/karangautam/Desktop/Data/census_filtered_data.csv")
+census = pd.read_csv("census_filtered_data.csv")
 
 # Sidebar
 st.sidebar.title("📊 Indian Census Data Analysis (2011)")
